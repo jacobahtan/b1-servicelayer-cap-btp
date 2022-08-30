@@ -1,0 +1,19 @@
+{
+    "init_data": {
+        "subaccount": {
+            "existing_destinations_policy": "update",
+            "destinations": [
+                {
+                    "Name": "B1SL",
+                    "Description": "B1 Service Layer definition with /b1s/v1/.",
+                    "Authentication": "BasicAuthentication",
+                    "ProxyType": "Internet",
+                    "Type": "HTTP",
+                    "URL": "http://_REPLACE_URL_:_REPLACE_PORT_/b1s/v1/",
+                    "User": "_REPLACE_USER_",
+                    "Password":"_REPLACE_PASSWORD_"
+                }
+            ]
+        }
+    }
+}
