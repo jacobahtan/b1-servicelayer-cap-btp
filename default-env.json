@@ -1,0 +1,14 @@
+{
+    "VCAP_SERVICES": {
+        "destination": [
+            {
+                "name": "destination",
+                "label": "destination",
+                "tags": [
+                    "destination"
+                ],
+                "credentials": _REPLACE_W_DEST_SERVICE_KEY_CREDENTIALS_
+            }
+        ]
+    }
+}
